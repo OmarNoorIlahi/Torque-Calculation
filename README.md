@@ -32,9 +32,6 @@ arm, illustrated in the table below:
 
 Methods.png
 
-<p align="center"><b>Table 1: Method Illustration</b></p>
-
-
 ## Assumptions
 
 -   The force here is the weight force; F_(weight ) = m × g
@@ -52,15 +49,7 @@ Methods.png
 
 ## Calculation
 
-| No. | Step                  | Joint 1 (Shoulder)         | Joint 2 (Elbow)            | Joint 3 (Wrist)           |
-|-----|-----------------------|----------------------------|----------------------------|---------------------------|
-| 1   | Force                 | F_weight = m × g = 1 × 9.81 = 9.81 N |                            |                           |
-| 2   | Perpendicular Distance| r₁ = L₁ + L₂ + L₃ = 15 + 10 + 4 = 29 cm | r₂ = L₂ + L₃ = 10 + 4 = 14 cm | r₃ = L₃ = 4 cm            |
-| 3   | Unit Conversion       | r₁ = 0.29 m                | r₂ = 0.14 m                | r₃ = 0.04 m               |
-| 4   | Torque                | T₁ = F_weight × r₁ = 9.81 × 0.29 = 2.84 N·m | T₂ = F_weight × r₂ = 9.81 × 0.14 = 1.37 N·m | T₃ = F_weight × r₃ = 9.81 × 0.04 = 0.39 N·m |
-
-<p align="center"><b>Table: 1kg Load Calculation</b></p>
-
+1kg Load Calculation.png
 
 ## Motor Selection
 
@@ -90,18 +79,7 @@ requires recalculation.
 
 ## Recalculation
 
-| N o. | Step           | Calculation         |             |             |
-|------|----------------|---------------------|-------------|-------------|
-| 1    | Force          | F_(weight) = m × g = 2 × 9.81 = 19.62N |             |             |
-| 2    | Perpendicular Distance | r₁ = L₁ + L₂ + L₃ | r₂ = L₂ + L₃  | r₃ = L₃       |
-|      |                | r₁ = 15 + 10 + 4    | r₂ = 10 + 4 | r₃ = 4cm      |
-|      |                | r₁ = 29cm           | r₂ = 14cm   |             |
-| 3    | Unit Conversion| r₁ = 0.29m          | r₂ = 0.14m  | r₃ = 0.04m    |
-| 4    | Torque         | T₁ = F_(weight) × r₁ | T₂ = F_(weight) × r₂ | T₃ = F_(weight) × r₃ |
-|      |                | T₁ = 19.62 × 0.29   | T₂ = 19.62 × 0.14 | T₃ = 19.62 × 0.04 |
-|      |                | T₁ = 5.68N.m        | T₂ = 2.75N.m | T₃ = 0.78N.m  |
-
-<p align="center"><b>Table 4: 2kg Load Calculation</b></p>
+2kg Load Calculation.png
 
 Based on the calculations, the selected motors cannot handle these
 loads. However, this issue can be solved by adding some gears to the
