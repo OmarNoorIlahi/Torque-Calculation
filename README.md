@@ -57,18 +57,14 @@ arm, illustrated in the table below:
 
 ## Calculation
 
-| N o. | Step           | Calculation         |             |             |
-|------|----------------|---------------------|-------------|-------------|
-| 1    | Force          | F_(weight) = m × g = 1 × 9.81 = 9.81N |             |             |
-| 2    | Perpendicular Distance | r₁ = L₁ + L₂ + L₃ | r₂ = L₂ + L₃  | r₃ = L₃       |
-|      |                | r₁ = 15 + 10 + 4    | r₂ = 10 + 4 | r₃ = 4cm      |
-|      |                | r₁ = 29cm           | r₂ = 14cm   |             |
-| 3    | Unit Conversion| r₁ = 0.29m          | r₂ = 0.14m  | r₃ = 0.04m    |
-| 4    | Torque         | T₁ = F_(weight) × r₁ | T₂ = F_(weight) × r₂ | T₃ = F_(weight) × r₃ |
-|      |                | T₁ = 9.81 × 0.29    | T₂ = 9.81 × 0.14 | T₃ = 9.81 × 0.04 |
-|      |                | T₁ = 2.84N.m        | T₂ = 1.37N.m | T₃ = 0.39N.m  |
+| No. | Step                  | Joint 1 (Shoulder)         | Joint 2 (Elbow)            | Joint 3 (Wrist)           |
+|-----|-----------------------|----------------------------|----------------------------|---------------------------|
+| 1   | Force                 | F_weight = m × g = 1 × 9.81 = 9.81 N |                            |                           |
+| 2   | Perpendicular Distance| r₁ = L₁ + L₂ + L₃ = 15 + 10 + 4 = 29 cm | r₂ = L₂ + L₃ = 10 + 4 = 14 cm | r₃ = L₃ = 4 cm            |
+| 3   | Unit Conversion       | r₁ = 0.29 m                | r₂ = 0.14 m                | r₃ = 0.04 m               |
+| 4   | Torque                | T₁ = F_weight × r₁ = 9.81 × 0.29 = 2.84 N·m | T₂ = F_weight × r₂ = 9.81 × 0.14 = 1.37 N·m | T₃ = F_weight × r₃ = 9.81 × 0.04 = 0.39 N·m |
 
-<p align="center"><b>Table 2: 1kg Load Calculation</b></p>
+<p align="center"><b>Table: 1kg Load Calculation</b></p>
 
 
 ## Motor Selection
