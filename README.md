@@ -28,13 +28,13 @@ alternatives to solve these challenges are provided.
 # Methods
 
 The following equation is used to calculate the torque for the robot
-arm, illustrated in the table below:
+arm, illustrated in the figure below:
 
-Methods.png
+![Methods](Methods.png)
 
 ## Assumptions
 
--   The force here is the weight force; F_(weight ) = m × g
+-   The force here is the weight force; F_(weight ) = m × g
 
 -   The distances in the figure are not perpendicular, as well as no
     angle of each link is provided; therefore, assume each is
@@ -49,7 +49,7 @@ Methods.png
 
 ## Calculation
 
-1kg Load Calculation.png
+![1kg Load Calculation](1kg%20Load%20Calculation.png)
 
 ## Motor Selection
 
@@ -60,7 +60,7 @@ motor selection with its purchase link on Amazon Saudi:
 | No. | Motor              | Details                | Purchase Link                              |
 |-----|--------------------|------------------------|--------------------------------------------|
 | 1   | Luqeeg High Torsion Servo Motor (35kg) | The motor torque is 3.43N.m, which can withstand 2.84N.m. | https://amzn.eu/d/inVrgOw                  |
-| 2   | HIWONDER 25KG RC Servo Motor | The motor torque is 2.45N.m, which can withstand 1.37N.m. | https://amzn.eu/d/dBKoHk0                  |
+| 2   | HIWONDER 25KG RC Servo Motor | The motor torque is 2.45N.m, which can withstand 1.37N.m. | https://amzn.eu/d/dBKoHk0                  |
 | 3   | INJORA 7KG 2065 Digital Servo Motor | The motor torque is 0.69N.m, which can withstand 0.39N.m. | https://amzn.eu/d/hXMe2N8                  |
 
 <p align="center"><b>Table 3: Motor Selection</b></p>
@@ -76,10 +76,9 @@ And what are the disadvantages and alternatives?
 First of all, doubling weight means doubling the torque; therefore, that
 requires recalculation.
 
-
 ## Recalculation
 
-2kg Load Calculation.png
+![2kg Load Calculation](2kg%20Load%20Calculation.png)
 
 Based on the calculations, the selected motors cannot handle these
 loads. However, this issue can be solved by adding some gears to the
@@ -96,7 +95,6 @@ motors but to verify, find the gear ratio first.
 Based on the gear ratio for each motor, the motors can handle the load
 by adding gears; however, there are some problems that will be shown.
 
-
 ## Disadvantages
 
 -   Complex and more parts in the mechanical system.
@@ -109,7 +107,6 @@ by adding gears; however, there are some problems that will be shown.
     ratio.
 
 -   Noise, vibration, and heavy weight.
-
 
 ## Alternatives
 
