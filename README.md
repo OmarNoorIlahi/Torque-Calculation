@@ -30,12 +30,7 @@ alternatives to solve these challenges are provided.
 The following equation is used to calculate the torque for the robot
 arm, illustrated in the table below:
 
-| T = F  × r  | ![Method Illustration](Question.png) |
-|-------------|--------------------------------------|
-| Where:      |                                      |
-| T: Torque   |                                      |
-| F: Force    |                                      |
-| r: Perpendicular distance from the motor to the line of action. | |
+Methods.png
 
 <p align="center"><b>Table 1: Method Illustration</b></p>
 
