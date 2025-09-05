@@ -45,8 +45,6 @@ arm, illustrated in the figure below:
 -   Assume the link connected to the base is link 1, the middle link is
     link 2, and the link near to the package is link 3.
 
----
-
 ## Calculation
 
 ![1kg Load Calculation](1kg%20Load%20Calculation.png)
